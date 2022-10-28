@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import React from 'react';
 import { Layout } from '../components';
-import { Toaster } from 'react-hot-toaster';
+import { Toaster } from 'react-hot-toast';
 import { StateContext } from '../context/StateContext';
 
 function MyApp({ Component, pageProps }) {
