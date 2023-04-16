@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce application
 
-## Getting Started
 
-First, run the development server:
+E-commerce Application is a fully responsive online store built using NextJS, Sanity CMS, and Stripe. The application features server-side rendering and static generation, with React context used for state management. Stripe is fully integrated with advanced cart functionalities, allowing payments to be processed securely. Sanity CMS was used for content management, enabling clients to change the home page and product details easily.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-## Learn More
+- Fully responsive design: The online store is designed to work seamlessly across all devices.
 
-To learn more about Next.js, take a look at the following resources:
+- Server-side rendering and static generation: The application uses NextJS to provide fast and smooth performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React context for state management: The React context API is used for managing state throughout the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Stripe integration: Stripe is fully integrated into the application, allowing payments to be processed securely.
 
-## Deploy on Vercel
+- Sanity CMS: The CMS is used for content management, making it easy for clients to change the home page and product details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Background
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I built the application because I wanted to learn more about  about NextJS, CMS, and payment APIs like Stripe. I had never used a CMS before or tried to fetch data using NextJS. For Sanity CMS, they created the schema and fetched data using getServerSideProps. I also used the Stripe API to create a payment basket.
+
+## Tech Used
+ - NextJS
+ - Sanity CMS
+ - Stripe
+
+ 
+## Installation
+
+
+1. Clone the repository
+2. Install the dependencies 
+3. Run the development 
+    
+## Usage/Examples
+
+The app can be accessed at localhost:3000.
+
+
+## Contributing
+Contributions are welcome! Please open an issue or pull request if you have any ideas for improvements.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+If you have any questions, please contact me at akwei1@gmail.com.
